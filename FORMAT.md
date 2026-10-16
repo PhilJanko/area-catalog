@@ -3,7 +3,7 @@
 `AreasCatalog.sqlite` is a SQLite 3 database (schema version 3, see table `catalog_metadata`). The tables are:
 
 - `areas`: ID, level, parent, codes, land area and a representative point,
-- `area_names`: primary, German and English names,
+- `area_names`: the primary name (language code empty) and names in German, English, French, Spanish, Italian and Japanese (`de`, `en`, `fr`, `es`, `it`, `ja`),
 - `area_continent_memberships`,
 - `area_bound_parts` with the R*Tree index `area_bounds`,
 - `area_geometries`: one polygon geometry per area in column `geometry`.

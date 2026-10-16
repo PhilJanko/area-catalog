@@ -16,13 +16,13 @@ This repository provides the area catalog included in the iPhone app TerraLumen,
 
 ## Changes from the sources
 
-The catalog keeps only land areas of continents, countries and regions, plus local areas for Germany and the United States. Geometries are simplified and quantized, continents are built from country land, and names are limited to the primary, German and English names.
+The catalog keeps only land areas of continents, countries and regions, plus local areas for Germany and the United States. Geometries are simplified and quantized, continents are built from country land, and names are limited to the primary name and the German, English, French, Spanish, Italian and Japanese names; the continents' French, Spanish, Italian and Japanese names were added by the developer.
 
 ## File
 
 | File | Size | SHA-256 |
 | --- | --- | --- |
-| `AreasCatalog.sqlite` | 101,724,160 bytes | `ac40421577722a4142c03c59c30dec4d480066876d79c47122ce412e58e5feea` |
+| `AreasCatalog.sqlite` | 102,412,288 bytes | `bd70d6ed2ac3ca4e5a9c6f19a173eca5ba4c5cc256733c1df6db325ce2b39734` |
 
 Included in TerraLumen 1.0 and later until a new catalog is released here.
 
